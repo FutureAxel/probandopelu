@@ -1,0 +1,96 @@
+body{
+    background-color: #4d4848;
+    font-family: sans-serif;
+  }
+
+  .first_title {
+    background-color: #4d4848;
+    margin: 1px;
+    padding: 2em;
+    border-radius: 100px;
+    border: 7px solid #46cbe5;
+    
+  }
+
+  .first_title h1 {
+    font-size: 65px;
+    text-align: center;
+    color: #46cbe5;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+  }
+
+  .container {
+    background-color: #4d4848;
+    margin: 1px;
+    padding: 2em;
+  }
+
+  ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  ul.slider{
+  position: relative;
+  background-color: #4d4848;
+  padding: 2em;
+  }
+
+  ul.slider li {
+    position: absolute;
+    transition: opacity .5s;
+    background: #4d4848;
+    top: 0px;
+    opacity: 0;
+    text-align: center;
+ }
+
+  ul.slider li img{
+  width: 50%;
+  height: 50%;
+  }
+
+  ul.slider li:first-child {
+  opacity: 1; /*Mostramos el primer <li>*/
+  }
+
+  ul.slider li:target {
+  opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+
+  .menu{
+    padding-top:  36em;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .menu li{
+    display: inline-block;
+    font-size: 30px;
+  }
+
+  .menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
+  
+
+
+
+
+
+
+
+
+
+

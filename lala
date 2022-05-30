@@ -1,0 +1,123 @@
+
+body{
+    background-color: #46cbe5;
+    font-family: sans-serif;
+    margin: 5px;
+  }
+
+.body{
+    background-color: #f1e7e7;
+    font-family: sans-serif;
+  }
+  
+  .container{
+    margin: auto;
+    background-color: #f02222;
+    width: 800px;
+    padding: 30px;
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider{
+    position: relative;
+    width: 800px;
+    height: 300px;
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background:#fff;
+  }
+
+  position: absolute;
+  transition: opacity .5s;
+  background: #4d4848;
+  top: 0px;
+  opacity: 0;
+  text-align: center;
+  margin: 1px;
+  padding: 2em;
+  
+  ul.slider li img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  
+  ul.slider li:target {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+  
+  .menu{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
+
+
+  <div class="card_container">
+  <div class="card">
+      <div class="alisado">
+      </div>
+      <div class="card_title">
+          <h2>Alisado</h2>
+      </div>
+      <button class="descripcion">
+          <a href="#" target="#"></a>
+          Descripcion del trabajo       
+      </button>
+  </div>
+  <div class="card">
+      <div class="mechas">
+      </div>
+      <div class="card_title">
+          <h2>Mechas</h2>
+      </div>
+      <button class="descripcion">
+          <a href="aca va el link de github" target="_blank"></a>
+          Descripcion del trabajo       
+      </button>
+  </div>
+  <div class="card">
+      <div class="color">
+      </div>
+      <div class="card_title">
+          <h2>Color</h2>
+      </div>
+      <button class="descripcion">
+          <a href="aca va el link de github" target="_blank"></a>
+          Descripcion del trabajo       
+      </button>
+  </div>
+</div>

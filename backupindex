@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buenas Vibras Peluqueria</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+    <body>
+        <div class="container">
+            <h1>Buenas Vibras Peluqueria</h1>
+            <ul class="slider">
+                <li id="slide1">
+                    <img src="../Peluqueria/caratula/caratula 1.jpeg"/>
+                </li>
+                <li id="slide2">
+                    <img src="../Peluqueria/caratula/Buenas Vibras 2.png"/>
+                </li>
+                <li id="slide3">
+                    <img src="../Peluqueria/caratula/Screen Shot 2022-05-19 at 22.22.25.png"/>
+                </li>
+            </ul>
+        
+            <ul class="menu">
+                <li>
+                    <a href="#slide1">1</a>
+                </li>
+                <li>
+                    <a href="#slide2">2</a>
+                </li>
+                <li>
+                    <a href="#slide3">3</a>
+                </li>
+            </ul>      
+        </div>    
+  </body>
+</html>

@@ -1,0 +1,144 @@
+body {
+    
+    overflow-x: hidden;
+  }
+  .container{
+    margin: auto;
+    background-color: #4d4848;
+    height: 42vw;
+    width: 100vw;
+    padding: 30px;
+  }
+
+  .container h1 {
+      font-size: 65px;
+      text-align: center;
+      color: #ebf124;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-weight: 100;
+      font-style: oblique;
+      background-color: rgb(5, 114, 7);
+      border-radius: 80px;
+      width: 29em;
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider{
+    position: relative;
+    width: 100vw;
+    height: 600px;
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 27%;
+      top: 0px;
+      opacity: 0;
+      width: 50em;
+      height: 100%;
+      transition: opacity .5s;
+      background:#fff;
+  }
+  
+  ul.slider li img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  
+  ul.slider li:target {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+  
+  .menu{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
+
+  .card_container {
+      background-color: #ebf124;
+      width: 80vw;
+      height: 80vh;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+  }
+
+  .card {
+    width: 300px;
+    background-color: #042539;
+    height: 500px;
+    margin: 1em;
+  }
+  
+  .alisado {
+    width: 100%;
+    height: 300px;
+    background-image: url(../Peluqueria/cortes/alisado.jpeg);
+    background-size: cover;
+  }
+  .mechas {
+    width: 100%;
+    height: 300px;
+    background-image: url(../Peluqueria/cortes/mechas.jpeg);
+    background-size: cover;
+  }
+  .color {
+    width: 100%;
+    height: 300px;
+    background-image: url(../Peluqueria/cortes/tinturacolor.jpeg);
+    background-size: cover;
+  }
+  
+  .card_title {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card .descripcion {
+    padding: 10px 5px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .69);
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 3.5em;
+    margin-top: 1.5em;
+    text-decoration: none;
+    color: #191c32;
+    text-transform: uppercase;
+  }
+  
+  .card .descripcion:hover {
+    background-color: #fff;
+    box-shadow: none;
+  }
